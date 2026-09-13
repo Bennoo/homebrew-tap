@@ -1,26 +1,26 @@
 class Mawaku < Formula
   desc "Command-line tool scaffold for generating video call backgrounds"
   homepage "https://github.com/Bennoo/mawaku-cli"
-  version "0.1.2"
+  version "0.6.1"
   license "MIT OR Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.1.2/mawaku-v0.1.2-macos-arm64.tar.gz"
-      sha256 "6443fbe48a5b52657151eca7c41b98d196b60b4201144ed07c9b9ef0b8d978b3"
+      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.6.1/mawaku-v0.6.1-macos-arm64.tar.gz"
+      sha256 "3d48361fd8f9381ca4297b732807172e8b25167ea2f404d49571cd49ec976d3d"
     else
-      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.1.2/mawaku-v0.1.2-macos-x86_64.tar.gz"
-      sha256 "258f80aadf3907ad4164e9d719fbd3782017c2f9cfda9233f665361236b7947f"
+      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.6.1/mawaku-v0.6.1-macos-x86_64.tar.gz"
+      sha256 "dc082af7dcc0af1fd1aac8cfa384e47bb675f489a987121210ae0e0162d7f992"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.1.2/mawaku-v0.1.2-linux-arm64.tar.gz"
-      sha256 "ce45e74c26e1856fd9e1e71334814d4cf0cdc4be7922f0b143ae2217e4cbe1c9"
+      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.6.1/mawaku-v0.6.1-linux-arm64.tar.gz"
+      sha256 "cd6da4ccf6ed4513a5465ba03cae2fcd2790403dd4a578c5adad0f056df9c3ec"
     else
-      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.1.2/mawaku-v0.1.2-linux-x86_64.tar.gz"
-      sha256 "66296ecdd65a4b10abb04cfd0ad36b61c92a91b632c31486b00c81b733414474"
+      url "https://github.com/Bennoo/mawaku-cli/releases/download/v0.6.1/mawaku-v0.6.1-linux-x86_64.tar.gz"
+      sha256 "576043752eeea71057745a27bc93c5f27d8ecc2e5fee731af07595cbfbb9e616"
     end
   end
 
